@@ -1,0 +1,15 @@
+{
+  "resources/js/Fieldtypes/Text.vue": {
+    "file": "assets/Text-12612403.js",
+    "isDynamicEntry": true,
+    "src": "resources/js/Fieldtypes/Text.vue"
+  },
+  "resources/js/Fieldtypes/init.ts": {
+    "dynamicImports": [
+      "resources/js/Fieldtypes/Text.vue"
+    ],
+    "file": "assets/init-2f1efe8a.js",
+    "isEntry": true,
+    "src": "resources/js/Fieldtypes/init.ts"
+  }
+}
