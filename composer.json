@@ -27,15 +27,12 @@
     "autoload": {
         "psr-4": {
             "MichelJonkman\\DirectorExample\\": "src"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MichelJonkman\\Director\\Providers\\DirectorServiceProvider"
+                "MichelJonkman\\DirectorExample\\Providers\\DirectorServiceProvider"
             ]
         }
     },
