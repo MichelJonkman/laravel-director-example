@@ -1,1 +1,2 @@
-console.log(import.meta.glob('./**/*.vue'));
+
+Director.registerComponents(import.meta.glob('./**/*.vue'));

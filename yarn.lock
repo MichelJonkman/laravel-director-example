@@ -136,6 +136,10 @@
     lodash.clonedeep "^4.5.0"
     lodash.isequal "^4.5.0"
 
+"@micheljonkman/laravel-director@link:../laravel-director/resources/npm":
+  version "0.0.0"
+  uid ""
+
 "@octokit/auth-token@^3.0.0":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-3.0.3.tgz#ce7e48a3166731f26068d7a7a7996b5da58cbe0c"

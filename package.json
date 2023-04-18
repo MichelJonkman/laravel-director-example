@@ -14,6 +14,7 @@
     "dependencies": {
         "@inertiajs/vue3": "^1.0.0",
         "@types/node": "^18.7.13",
+        "@micheljonkman/laravel-director": "link:../laravel-director/resources/npm",
         "@vitejs/plugin-basic-ssl": "^1.0.1",
         "@vitejs/plugin-vue": "^4.0.0",
         "bootstrap": "^5.2.0",
