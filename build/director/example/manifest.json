@@ -1,29 +1,43 @@
 {
-  "__plugin-vue_export-helper-31b705b8.js": {
-    "file": "assets/_plugin-vue_export-helper-31b705b8.js"
+  "__plugin-vue_export-helper-c27b6911.js": {
+    "file": "assets/_plugin-vue_export-helper-c27b6911.js"
+  },
+  "_runtime-core.esm-bundler-4c6856a8.js": {
+    "file": "assets/runtime-core.esm-bundler-4c6856a8.js"
   },
   "resources/js/Fieldtypes/Text.vue": {
-    "file": "assets/Text-1d354363.js",
+    "file": "assets/Text-ef5c7eae.js",
     "imports": [
-      "__plugin-vue_export-helper-31b705b8.js"
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_runtime-core.esm-bundler-4c6856a8.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Fieldtypes/Text.vue"
   },
   "resources/js/Fieldtypes/Text2.vue": {
-    "file": "assets/Text2-c2d3eae2.js",
+    "file": "assets/Text2-19c8c4b6.js",
     "imports": [
-      "__plugin-vue_export-helper-31b705b8.js"
+      "__plugin-vue_export-helper-c27b6911.js",
+      "_runtime-core.esm-bundler-4c6856a8.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Fieldtypes/Text2.vue"
   },
+  "resources/js/Fieldtypes/TextElement.vue": {
+    "file": "assets/TextElement-a26a2dbe.js",
+    "imports": [
+      "_runtime-core.esm-bundler-4c6856a8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Fieldtypes/TextElement.vue"
+  },
   "resources/js/Fieldtypes/init.ts": {
     "dynamicImports": [
       "resources/js/Fieldtypes/Text.vue",
-      "resources/js/Fieldtypes/Text2.vue"
+      "resources/js/Fieldtypes/Text2.vue",
+      "resources/js/Fieldtypes/TextElement.vue"
     ],
-    "file": "assets/init-9774d9c9.js",
+    "file": "assets/init-fb37a91a.js",
     "isEntry": true,
     "src": "resources/js/Fieldtypes/init.ts"
   }
