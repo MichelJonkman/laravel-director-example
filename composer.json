@@ -18,9 +18,8 @@
     ],
     "require": {
         "php": "^8.1",
-        "laravel/framework": "^9.50",
-        "micheljonkman/laravel-director": "^0.0.1",
-        "inertiajs/inertia-laravel": "^0.6.3"
+        "laravel/framework": "^10.0",
+        "micheljonkman/laravel-director": "^0.0.1"
     },
     "require-dev": {
     },
