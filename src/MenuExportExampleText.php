@@ -2,7 +2,7 @@
 
 namespace MichelJonkman\DirectorExample;
 
-
+use Illuminate\Support\Facades\Vite;
 use MichelJonkman\Director\Menu\Elements\MenuElement;
 
 class MenuExportExampleText extends MenuElement
@@ -25,7 +25,13 @@ class MenuExportExampleText extends MenuElement
 
     public function getComponentUrl(): string
     {
-        return \Vite::asset('resources/js/Fieldtypes/TextElement.vue', 'director/example');
+        return Vite::useHotFileFor(
+            'director-example.hot',
+            fn() => Vite::asset(
+                'resources/js/Fieldtypes/TextElement.vue',
+                'director/example'
+            )
+        );
     }
 
     public function getData(): array
