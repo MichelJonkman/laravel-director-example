@@ -8,5 +8,6 @@ class DirectorServiceProvider extends AggregateServiceProvider
 {
     protected $providers = [
         FrontendServiceProvider::class,
+        MenuServiceProvider::class
     ];
 }
