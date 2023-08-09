@@ -1,10 +1,11 @@
 <template>
-    <a class="nav-link" aria-current="page">
-        {{ element.text }}test
+    <a class="nav-link text-primary" aria-current="page">
+        {{ element.text }}
     </a>
 </template>
 
 <script lang="ts" setup async>
+
 import {TextElementInterface} from "@micheljonkman/laravel-director/js/Interfaces/Menu/Elements/TextElementInterface";
 
 const {element} = defineProps<{
