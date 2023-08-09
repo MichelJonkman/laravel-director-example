@@ -1,6 +1,6 @@
 {
   "resources/js/Fieldtypes/init.ts": {
-    "file": "assets/init-3219f84d.js",
+    "file": "assets/init-f9326624.js",
     "src": "resources/js/Fieldtypes/init.ts",
     "isEntry": true,
     "dynamicImports": [
@@ -8,7 +8,7 @@
     ]
   },
   "resources/js/Fieldtypes/TextElement.vue": {
-    "file": "assets/TextElement-7e87faa0.js",
+    "file": "assets/TextElement-9379dc0a.js",
     "src": "resources/js/Fieldtypes/TextElement.vue",
     "isDynamicEntry": true
   }

@@ -1,5 +1,5 @@
 <template>
-    <a class="nav-link text-primary" aria-current="page">
+    <a class="nav-link ms-3" aria-current="page">
         {{ element.text }}
     </a>
 </template>

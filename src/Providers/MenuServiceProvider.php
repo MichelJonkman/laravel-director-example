@@ -16,7 +16,11 @@ class MenuServiceProvider extends ServiceProvider
     public function boot(Director $director): void
     {
         $director->menu()->modify('director-example', function (RootMenuElement $menu) {
-            $menu->addElement('test', MenuExportExampleText::class)->setText('Example element: ');
+            $menu->addGroup('director-example.group')
+                ->setTitle('Example package')
+                ->addChildren([
+                    $menu->addElement('director-example.group.test', MenuExportExampleText::class)->setText('Example!')
+                ]);
         });
 
         $this->registerCache($director);
